@@ -1,0 +1,17 @@
+
+
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+  background: #f9f9f9;
+  font-size: 24px;
+  padding: 25px;
+}
+
+.parallax{
+background: url(https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2020/09/30/space-istock-895035-1601412603.jpg?itok=8JDfauw8) no-repeat center;
+background-size: cover;
+background-attachment: fixed;
+height: 500px;
+
+}

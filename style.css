@@ -1,0 +1,191 @@
+*{
+  position: relative;
+}
+
+body{
+padding: 0;
+margin: 0;
+background-color: black;
+overflow-x: hidden;
+cursor: url("/Images/cursor.png"), auto;
+height: 100vh;
+background-color: red;
+background-image: linear-gradient(315deg, #000000 0%, #130f40 74%);
+
+}
+
+body::selection {
+color: #000;
+background-color: #eec0c6;
+background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+}
+
+.head{
+margin-top: 30px;
+margin-left: 70px;
+font-size: 60px;
+font-family: cursive;
+color: #000;
+}
+header{
+
+position: fixed;
+margin-top: 0px;
+margin-left: -120px;
+margin-right: 10px;
+width: 100%;
+display:flex;
+justify-content: space-between;
+align-items: center;
+transition: 0.6s;
+padding: 20px 100px ;
+color: #fff;
+z-index: 5;
+background-color: #eec0c6;
+background-image: linear-gradient(315deg, #5f0a87 0%, #a4508b 74%);
+}
+
+header.sticky{
+  padding: 5px 100px;
+  background-image: linear-gradient(315deg, #a4508b 0%, #5f0a87 74%);
+
+
+}
+header .logo{
+position: relative;
+font-weight: 700;
+color: #fff;
+text-decoration: none;
+font-size: 2em;
+margin-left: 60px;
+margin-bottom: 10px;
+}
+header ul{
+  position: relative;
+  display: flex;
+  justify-content:center;
+align-items: center;
+}
+header ul li{
+  position: relative;
+  list-style: none;
+
+}
+header ul li a{
+  position: relative;
+  margin: 0px 15px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500px;
+  transition: 0.8s;
+}
+.banner{
+  position: relative;
+  width: 100%;
+  height: 1%;
+  background: url(https://e3.365dm.com/20/06/768x432/skynews-sky-weather-cloud-sun_5004939.jpg?20200603122525)
+  background-size:cover;
+}
+header.sticky .logo,
+header.sticky ul li a {
+  color: #000;
+}
+
+
+
+.parallax{
+min-height: 900px;
+background: transparent;
+margin-top: 500px;
+}
+
+.MainQuote{
+  align-items: center;
+  text-align: center;
+}
+
+.Copyright{
+  color: white;
+}
+.Copyright::selection{
+  color:  #eec9d2;
+background: #bae5e4;
+}
+
+.AnimatedQuote h1{
+  margin-top: 450px;
+  color: white;
+  margin-left: 70px;
+}
+
+.animateText{
+  color: #0AB3B3;
+}
+.animateText::selection{
+  color:  #eec9d2;
+background: #bae5e4;
+}
+
+.HighlightText::selection{
+  color:  #eec9d2;
+background: #bae5e4;
+}
+
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+body::-webkit-scrollbar-track {
+  background: #5B5B5B;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #3F3F3F;
+  border-radius: 5px;
+  border: 3px #938F8F;
+}
+
+.Current_ongoing_projects {
+    margin-top: -2500px;
+    margin-left: 1000px;
+}
+
+.ketta_LOGO {
+    margin-top: -150px;
+    margin-left: -400px;
+    user-drag: none;
+    user-select: none;
+}
+
+.project_msg {
+    margin-top: 450px;
+    margin-left: -950px;
+    color: white;
+}
+
+.project_name {
+    margin-top: -150px;
+    margin-left: 100px;
+    color: #FF5DA2;
+    font-size: 120px;
+}
+
+.project_description {
+    color: #fff;
+/*    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        /* Green glow */
+/*        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;*/*/
+
+    margin-left: -500px;
+
+}
+
+
+
+
